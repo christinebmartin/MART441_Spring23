@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--Define header of document-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+  <meta name="description" content="...">
+  <meta name="author" content="Christine Martin 441 Homework Week 3">
+  <title>Playing with Functions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!--Link to css file for styling -->
+  <link rel="stylesheet" style type="text/css" href="style.css">
+
+  <!--Link to java file where script instructions are -->
+  <script src="script.js">
+  </script>
+
+</head>
+
+<body>
+  <h1>Adventures of Glacier</h1>
+  <!--Create page heading -->
+
+  <!--create an ID of the image, defining the source, alt name, size and alignment -->
+  <img id="myDog" src="./images/Glacier.jpeg" alt="Glacier the Akbash" width="304" align="left">
+
+  <p id="bark"></p>
+  <!--Insert a place for the image display -->
+
+  <div id="adventure">
+
+    Glacier is a fun loving, free spirit Akbash (turkish herding dog). She was adoped from the Flathead County Humane Society 4 years ago.
+    She enjoys sitting as high as she can so she can look over and protect her "flock" .
+
+    Weighing over 100 lbs, she's a big girl who sheds about a dog a day in hair. </br></br>
+
+    Glacier loves adventures, so much so her owners had to get a special color that tracked where she went on her adventures. </br></br>
+
+    Let's follow along with Glacier as she plans her day.
+
+    </br></br>What should Glacier do first?
+
+  </div>
+
+  <!--Define buttons and set onclick property -->
+  <br>
+  <button id="dog1" onclick="dogFunction(1);">Take A Nap</button>&nbsp;
+  <button id="dog2" onclick="dogFunction(2);">Go On An Adventure</button>
+<!--Add a button that allows user to click and reset the story -->
+  <button id="refresh" onclick="reloadPage()">Reload Page</button>
+</body>
+
+</html>

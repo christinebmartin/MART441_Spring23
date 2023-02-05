@@ -1,0 +1,21 @@
+/* Assign style to body*/
+body {
+    background-color: lightgray;
+    font-family: Arial, Verdana, sans-serif;
+  }
+
+  p::first-letter {
+    font-size: 200%;
+
+  }
+
+  /* Style Button*/
+  button {
+    background-color: pink;
+    font-size: 16px;
+    text-align: center;
+    margin: 4px 2px;
+  }
+
+  #refresh {
+  background-color: slategray;
